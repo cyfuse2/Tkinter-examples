@@ -37,3 +37,23 @@ botao4 = tk.Button(root, text = "nova janela", command=janela)
 botao4.pack(padx=20, pady=20)
 
 root.mainloop()
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+import tkinter as tk
+
+def mostrar_texto():
+    texto = entry.get()
+    label.config(text = "Voce digitou: " + texto)
+    
+root = tk.Tk()
+root.title("Exemplo Completo")
+root.geometry("300x200")
+
+label = tk.Label(root, text = "Bem-vindo ao Tkinter!")
+label.pack()
+
+entry = tk.Entry(root)
+entry.pack()
+
+root.mainloop()
