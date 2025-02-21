@@ -1,0 +1,11 @@
+import tkinter as tk
+
+#Criando a janela principal
+root = tk.Tk()
+root.title("Minha Primeira Janela")
+
+#Tamanho da janela
+root.geometry("300x200")
+
+#Iniciar o loop principal
+root.mainloop()
